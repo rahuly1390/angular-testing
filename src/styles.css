@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  background: #F2F2F2;
+  font-family: 'Nunito', sans-serif;
+  height: 100vh; }
+
+ td,th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
